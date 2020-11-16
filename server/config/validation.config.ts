@@ -27,14 +27,6 @@ export const getBookValidations = [
     .toBoolean(),
 ];
 
-export const reviewValidations = [
-  body('rating')
-    .isInt({ min: 0, max: 5 }),
-  body('reviewText')
-    .optional()
-    .isLength({ max: 1000 }),
-];
-
 export const validate = (req, res, next) => {
   const errors = validationResult(req);
   if (!errors.isEmpty()) {
