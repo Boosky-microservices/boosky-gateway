@@ -36,17 +36,3 @@ To run the app on a local developement environement do as follows :
 ## Installation
 - To run the app, just run `docker-compose up`  (you need to have Docker installed).
 - The application is also deployed on: https://booksy-api.herokuapp.com
-
-
-## Documentation
-The API docs are available [here](https://booksy-api.herokuapp.com/api-docs/).
-
-## Authors (Group 2 Team 3)
-- Abdelhadi Naimi
-- Yassine Mohammed Cherifi
-- Wassim Berrari
-- Fatima Ezzahra Bakir
-
-## Licence
-
-Booksy - Université de Bordeaux.
